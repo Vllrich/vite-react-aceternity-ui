@@ -5,6 +5,7 @@ import LandingPage from "./shared/landing-page/landing_page";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignUpForm from "./ui/signup/signup_form";
 import Providers from "./shared/providers";
+import { WavyBackground } from "./components/wavy-background";  // Benannter Import
 
 function App() {
   return (
