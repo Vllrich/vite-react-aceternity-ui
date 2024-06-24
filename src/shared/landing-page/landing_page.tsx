@@ -35,7 +35,7 @@ const LandingPage: FunctionComponent<LandingPageProps> = () => {
       <TypewriterEffect words={words} className="my-8" />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-10">
         <AppButton label="Signup" href="/signup" variant="gradient" />
-        <AppButton label="Login" href="/login" variant="moving-border" />
+        <AppButton label="Get in touch" href="/login" variant="moving-border" />
       </div>
     </div>
     // <LampContainer>
